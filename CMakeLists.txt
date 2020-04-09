@@ -57,6 +57,10 @@ target_include_directories(tbb PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
 
+if(MSVC AND CMAKE_CXX_COMPILER_ID STREQUAL Clang)
+  target_compile_options(tbb PRIVATE /clang:-mrtm)
+endif()
+
 if(WIN32)
   if(CMAKE_SIZEOF_VOID_P STREQUAL 4)
     target_sources(tbb PRIVATE
