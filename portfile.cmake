@@ -1,9 +1,9 @@
 vcpkg_from_github(
   OUT_SOURCE_PATH SOURCE_PATH
   REPO intel/tbb
-  REF v2020.1
-  SHA512 4bcde2084c7bfee372d9473876659af59bd273f8e56ebe7fcaef41e51e18dcf8070ca2ab019caddabe6ef5c1c08c0da2f4362567b090872a5d461c9b9b6a73a7
-  HEAD_REF tbb_2020
+  REF v2020.2
+  SHA512 b9a5d0e814ebd2e69690585bcfb5a545c06f030e193154bef161ac59066044109f8a0305a9ba535c447739da3380c351067db19c38de4bf96ec742b044f39885
+  HEAD_REF tbb_2020.2
   PATCHES
     fix-comparison-operator.patch
     fix-static-build.patch

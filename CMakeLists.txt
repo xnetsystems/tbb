@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16 FATAL_ERROR)
-project(tbb VERSION 2020.1 LANGUAGES CXX)
+project(tbb VERSION 2020.2 LANGUAGES CXX)
 
 if(WIN32)
   enable_language(ASM_MASM)
