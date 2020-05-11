@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 cmake_minimum_required(VERSION 3.16 FATAL_ERROR)
+=======
+cmake_minimum_required(VERSION 3.14 FATAL_ERROR)
+>>>>>>> ad62a646171b0124892e7247f017f124c6ab7d6b
 project(tbb VERSION 2020.2 LANGUAGES CXX)
 
 if(WIN32)
