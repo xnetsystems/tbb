@@ -1,9 +1,5 @@
 cmake_minimum_required(VERSION 3.14 FATAL_ERROR)
-project(tbb VERSION 2020.2 LANGUAGES CXX)
-
-if(WIN32)
-  enable_language(ASM_MASM)
-endif()
+project(tbb VERSION 2020.2 LANGUAGES CXX ASM_MASM)
 
 file(WRITE ${CMAKE_CURRENT_BINARY_DIR}/version_string.ver
   "#define __TBB_VERSION_STRINGS(N) \"${PROJECT_VERSION}\"\n")
