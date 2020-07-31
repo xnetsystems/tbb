@@ -1,11 +1,10 @@
 vcpkg_from_github(
   OUT_SOURCE_PATH SOURCE_PATH
   REPO oneapi-src/oneTBB
-  REF v2020.2
-  SHA512 b9a5d0e814ebd2e69690585bcfb5a545c06f030e193154bef161ac59066044109f8a0305a9ba535c447739da3380c351067db19c38de4bf96ec742b044f39885
+  REF v2020.3
+  SHA512 ea1ffd22c7234d715b8c46a4e51b40719c7a9b8837ab3166f1da5a2c6061167c2be2126b1d74fd361eec6975b8fce0df26829ca2e7af8029edbb52e40f23d630
   HEAD_REF tbb_2020
   PATCHES
-    fix-comparison-operator.patch
     fix-static-build.patch
     fix-warnings.patch
 )

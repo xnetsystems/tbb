@@ -1,6 +1,6 @@
 Source: tbb
-Version: 2020_U2
-Homepage: https://github.com/intel/tbb
+Version: 2020_U3
+Homepage: https://github.com/oneapi-src/oneTBB
 Description: Intel's Threading Building Blocks.
 
 Feature: pstl
