@@ -1,7 +1,4 @@
 Source: tbb
-Version: 2020_U3
+Version: 2021.1-beta10
 Homepage: https://github.com/oneapi-src/oneTBB
 Description: Intel's Threading Building Blocks.
-
-Feature: pstl
-Description: Build for ParallelSTL use.
